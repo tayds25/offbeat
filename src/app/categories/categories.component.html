@@ -1,0 +1,49 @@
+<div class="categories-container">
+    <h2 id="tops">Tops</h2>
+    <div class="grid-container">
+        <div *ngFor="let product of tops">
+            <div class="card">
+                <img class="card-img" [src]="product.size" alt="Product Image">
+                <div class="card-info">
+                    <p class="text-title">{{ product.name }}</p>
+                    <p class="text-body">{{ product.description || 'No description available' }}</p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-price">₱ {{ product.price }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h2 id="bottoms">Bottoms</h2>
+    <div class="grid-container">
+        <div *ngFor="let product of bottoms">
+            <div class="card">
+                <img class="card-img" [src]="product.imageUrl" alt="Product Image">
+                <div class="card-info">
+                    <p class="text-title">{{ product.name }}</p>
+                    <p class="text-body">{{ product.description || 'No description available' }}</p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-price">₱ {{ product.price }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <h2 id="shoes">Shoes</h2>
+    <div class="grid-container">
+        <div *ngFor="let product of shoes">
+            <div class="card">
+                <img class="card-img" [src]="product.imageUrl" alt="Product Image">
+                <div class="card-info">
+                    <p class="text-title">{{ product.name }}</p>
+                    <p class="text-body">{{ product.description || 'No description available' }}</p>
+                </div>
+                <div class="card-footer">
+                    <span class="text-price">₱ {{ product.price }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
