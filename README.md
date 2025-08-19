@@ -6,7 +6,7 @@ This project is an Angular web application for an imaginary e-commerce platform.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
 
-![Offbeat Image](src/assets/avatar.png)
+![Offbeat Image](src/assets/offbeat_image.png)
 
 ##  Tools and Technologies Used
 Angular: Main framework for building the SPA (Single Page Application).
